@@ -12,6 +12,6 @@ public class Order {
     }
 
     public int total(){
-        return (amount + delivery.price);
+        return (amount + shipFeed);
     }
 }
